@@ -1,0 +1,190 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "dosi Hub",
+   Icon = 0,
+   LoadingTitle = "by dosi",
+   LoadingSubtitle = "by dosi",
+   Theme = "AmberGlow",
+
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false,
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil,
+      FileName = "Big Hub"
+   },
+
+   Discord = {
+      Enabled = false,
+      Invite = "noinvitelink",
+      RememberJoins = true
+   },
+
+   KeySystem = false,
+   KeySettings = {
+      Title = "Untitled",
+      Subtitle = "Key System",
+      Note = "No method of obtaining the key is provided",
+      FileName = "Key",
+      SaveKey = true,
+      GrabKeyFromSite = false,
+      Key = {"Hello"}
+   }
+})
+
+local Tab = Window:CreateTab("메인", nil)
+local Button = Tab:CreateButton({
+   Name = "fly",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "infinite yield",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Qp vape 4",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/QP-Offcial/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "FE dance",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/public-scripts/main/Universal_Animations_Emotes.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Jail Break",
+   Callback = function()
+   loadstring(game:HttpGet('http://scripts.projectauto.xyz/AutoRobV5'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Murder Mystrey 2",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/vertex-peak/vertex/refs/heads/main/loadstring"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Phantom Forces",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/dementiaenjoyer/homohack/main/homohack.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Prison Life",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/elliexmln/PrizzLife/main/pladmin.lua'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Slap Battle(AutoFarm)",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastefy.app/niPKZsec/raw"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Taxi Boss",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/main/Taxi%20Boss", true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "FTAP(Blizt primium)",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/BlizTBr/scripts/main/FTAP%20(Modified).lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Jerk Off(R6)",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Jerk Off(R15)",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastefy.app/YZoglOyJ/raw"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Quiz Bot(only Eng)",
+   Callback = function()
+   local CategoryManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Damian-11/quizbot/master/quizbot.luau"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "한국머더(only work on solara)",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/minute124/RH-666-/refs/heads/main/Protected_7087928499639776.lua'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Fisch(Ronix Hub)",
+   Callback = function()
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/db3eabc3826cdfb11cbad8c12a13db93.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "blox Fruits",
+   Callback = function()
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b5f968ca22436160479678e830766cc4.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Blade Ball",
+   Callback = function()
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/79ab2d3174641622d317f9e234797acb.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Rivals",
+   Callback = function()
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/31adf31e02665d1801c2e40d659fe00d.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Bee Swarm Sim",
+   Callback = function()
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/9cfaf7193fd721277d8a7b8bbf394315.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Arsenal",
+   Callback = function()
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/93f86be991de0ff7d79e6328e4ceea40.lua"))()
+   end,
+})
+
+local Tab = Window:CreateTab("스크립트 종료", nil)
+local Button = Tab:CreateButton({
+   Name = "스크립트 종료",
+   Callback = function()
+   Rayfield:Destroy()
+   end,
+})
